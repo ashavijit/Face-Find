@@ -1,0 +1,53 @@
+{% extends 'landing/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section id="team" class="team section-bg">
+	<div class="container" style="padding-top: 25px;">
+
+		<div class="section-title">
+			<h2>List of Missing People</h2>
+		</div>
+
+		<div class="row">
+
+			{% for object in missing_persons %}
+			<div class="col-lg-6" style="padding: 10px;">
+				<div class="member d-flex align-items-start">
+					<div class="rounded mx-auto d-block"><img src="{{object.photo.url}}" alt="" height="100"
+							width="100"></div>
+					<div class="member-info">
+						<h4>{{ object.first_name }} {{ object.last_name }}</h4>
+						<span>Last seen at {{ object.last_seen}}, Status : {{object.status}}</span>
+						<p>{{ object.description }}</p>
+						<br>
+						<div class="">
+							<a href="{% url 'update_missing_person' object.pk%}" class="btn btn-sm btn-warning"
+								role="button">Edit</a> &nbsp
+							<a href="{% url 'delete_missing_person' object.pk%}" class="btn btn-sm btn-danger"
+								role="button"> Delete</a> &nbsp
+
+							{%if not object.is_verified%}
+							<a href="{% url 'verify_missing_person' object.pk%}" class="btn btn-sm btn-success"
+								role="button"> Approve</a> &nbsp
+							{%endif%}
+
+						</div>
+					</div>
+				</div>
+			</div>
+			{% empty %}
+			No entries available.
+
+			{% endfor %}
+
+
+
+		</div>
+
+	</div>
+</section><!-- End Team Section -->
+
+
+{% endblock content %}
