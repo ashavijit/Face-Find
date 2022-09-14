@@ -21,8 +21,8 @@ A Django Web Application to help find missing people using Face Recognition.
 <br />
 
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ashavijit/Face-Find?logo=github&style=for-the-badge)](https://github.com/tinycoder2/FaceFind)
-[![GitHub last commit](https://img.shields.io/github/last-commit/ashavijit/Face-Find?style=for-the-badge&logo=git)](https://github.com/tinycoder2/FaceFind)
-[![Languages](https://img.shields.io/github/languages/count/ashavijit/Face-Find?style=for-the-badge)](https://github.com/tinycoder2/FaceFind)
+[![GitHub last commit](https://img.shields.io/github/last-commit/ashavijit/Face-Find?style=for-the-badge&logo=git)](https://github.com/ashavijit)
+[![Languages](https://img.shields.io/github/languages/count/ashavijit/Face-Find?style=for-the-badge)](https://github.com/ashavijit)
 [![Generic badge](https://img.shields.io/badge/view-demo-blue?style=for-the-badge&label=View%20Demo%20Video)](yt.com)
 
 <br />
