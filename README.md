@@ -6,7 +6,7 @@
 
 <div align="center"><a  href="#top"></a>
 
-<img  src="landing/static/landing/img/face2.png"  alt="Logo"  width="80"  height="80">
+<img  src="https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/face_ID-512.png"  alt="Logo"  width="80"  height="80">
 
   
 
