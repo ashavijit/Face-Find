@@ -17,7 +17,7 @@
 
 A Django Web Application to help find missing people using Face Recognition.
 
-  Now deployed on Heroku! Click [here]() to check it out!
+  Now deployed on Heroku! Click [here](https://face-find-xy.herokuapp.com/) to check it out!
 <br />
 
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ashavijit/Face-Find?logo=github&style=for-the-badge)](https://github.com/tinycoder2/FaceFind)
